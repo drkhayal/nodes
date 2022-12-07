@@ -165,6 +165,7 @@ sudo systemctl restart $RLO
 
 echo '=============== QURULUM TAMAM! by Dr.Testnet ==================='
 echo -e 'LOGLARI KONTROL ET: \e[1m\e[32mjournalctl -fu realio-networkd -o cat\e[0m'
+echo -e "\e[1m\e[31mSpecial Thanks Nodeist for Original Script <3\e[0m"
 echo -e "SİNXRONİZASİYANI KONTROL ET: \e[1m\e[32mcurl -s localhost:${RLO_PORT}657/status | jq .result.sync_info\e[0m"
 
 source $HOME/.bash_profile
